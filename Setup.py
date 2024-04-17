@@ -1,6 +1,6 @@
 from setuptools import setup
 
-from my_pip_package import __version__
+from Ca_Naxca import __version__
 
 setup(
     name='Ca_Naxca',
