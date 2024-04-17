@@ -1,9 +1,5 @@
 from setuptools import setup
 
-from Ca_Naxca import __version__
-
-from setuptools import setup
-
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
     name='Ca_Naxca',
@@ -15,7 +11,7 @@ setup(
     # Needed for dependencies
     install_requires=['numpy'],
     # *strongly* suggested for sharing
-    version=__version__,
+    version=0.0.0.1,
     # The license can be anything you like
         #license='MIT',
         #description='',
