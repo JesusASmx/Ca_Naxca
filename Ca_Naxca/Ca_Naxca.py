@@ -1,4 +1,4 @@
-def ola:
+def ola():
     print("OLA")
 
 class csv_crossvals:
