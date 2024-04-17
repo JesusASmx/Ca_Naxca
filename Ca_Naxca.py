@@ -1,3 +1,5 @@
+__version__ = 'dev'
+
 class csv_crossvals:
     def __init__(self):
         print("WORKS!")
