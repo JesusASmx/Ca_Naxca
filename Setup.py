@@ -2,13 +2,22 @@ from setuptools import setup
 
 from Ca_Naxca import __version__
 
-setup(
-    name='Ca_Naxca',
-    version=__version__,
+from setuptools import setup
 
+setup(
+    # Needed to silence warnings (and to be a worthwhile package)
+    name='Ca_Naxca',
     url='https://github.com/JesusASmx/Ca_Naxca',
     author='Jesús Armenta-Segura',
     author_email='jesus.jorge.armenta@gmail.com',
-
-    py_modules=['Ca_Naxca'],
+    # Needed to actually package something
+    packages=['Ca_Naxca'],
+    # Needed for dependencies
+    install_requires=['numpy'],
+    # *strongly* suggested for sharing
+    version=__version__,
+    # The license can be anything you like
+        #license='MIT',
+        #description='',
+    #long_description=open('README.txt').read(),
 )
