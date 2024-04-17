@@ -1,4 +1,5 @@
-__version__ = 'dev'
+def ola:
+    print("OLA")
 
 class csv_crossvals:
     def __init__(self):
