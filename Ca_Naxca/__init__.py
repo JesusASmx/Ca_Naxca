@@ -1,1 +1,1 @@
-from .Ca_Naxca import alo
+from uataniyotl import alo
