@@ -1,1 +1,1 @@
-from uataniyotl import alo
+from .uataniyotl import alo
