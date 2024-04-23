@@ -145,7 +145,7 @@ class regression_report:
         return df
 
 
-    def plot(self):
+    def plot(self, path):
         cuantos = range(len(self.IDs))
 
         plt.figure(figsize=(10, 6))
@@ -161,3 +161,5 @@ class regression_report:
 
         plt.tight_layout()
         plt.show()
+
+        plt.savefig(path)
