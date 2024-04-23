@@ -153,7 +153,7 @@ class regression_report:
         plt.scatter(cuantos, self.y_test, color='blue', label='Real Values', marker='o')
         plt.scatter(cuantos, self.y_pred, color='red', label='Pred. Values', marker='x')
 
-        plt.xticks(cuantos, seld.IDs, rotation=45)
+        plt.xticks(cuantos, self.IDs, rotation=45)
         plt.xlabel('IDs')
         plt.ylabel('Labels')
         plt.title('Predicted vs Real values')
