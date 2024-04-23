@@ -151,7 +151,7 @@ class regression_report:
         plt.figure(figsize=(10, 6))
 
         plt.scatter(cuantos, self.y_test, color='blue', label='Real Values', marker='o')
-        plt.scatter(cuantos, self.y_test, color='red', label='Pred. Values', marker='x')
+        plt.scatter(cuantos, self.y_pred, color='red', label='Pred. Values', marker='x')
 
         plt.xticks(cuantos, seld.IDs, rotation=45)
         plt.xlabel('IDs')
