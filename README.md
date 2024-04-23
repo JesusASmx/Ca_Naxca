@@ -1,5 +1,7 @@
 # Ximopanolti timochtin!
 
+!pip install git+https://github.com/jesusASmx/Ca_Naxca
+
 Inin virtualtlapiakalli ikpia:
 
 1.- csv_crossvals
