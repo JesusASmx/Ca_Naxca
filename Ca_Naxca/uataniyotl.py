@@ -160,6 +160,6 @@ class regression_report:
         plt.legend()
 
         plt.tight_layout()
-        plt.show()
-
         plt.savefig(path)
+        
+        plt.show()
